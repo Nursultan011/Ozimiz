@@ -26,7 +26,6 @@ gulp.task('sass', function () {
 gulp.task('css', function () {
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
-        'node_modules/slick-carousel/slick/slick.css',
         'node_modules/bootstrap/dist/css/bootstrap-reboot.min.css',
         'node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
     ])
