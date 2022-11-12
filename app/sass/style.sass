@@ -74,7 +74,32 @@ h1,h2,h3,h4,h5,h6
                 margin-left: 24px
         .burger
             display: none
-
+        .language
+            position: relative
+            margin-left: 32px
+            &__active
+                background: rgba(255, 255, 255, 0.05)
+                border-radius: 12px
+                width: 60px
+                height: 40px
+                font-size: 16px
+                color: white
+                display: flex
+                justify-content: center
+                align-items: center
+                cursor: pointer
+            &__wrap
+                position: absolute
+                background: rgba(255, 255, 255, 0.05)
+                border-radius: 12px
+                font-size: 16px
+                color: white
+                margin-top: 10px
+                width: 60px
+                text-align: center
+                div
+                    padding: 10px
+                    cursor: pointer
 .burger-menu
     display: none
     position: fixed
@@ -257,6 +282,11 @@ h1,h2,h3,h4,h5,h6
             font-weight: 700
             line-height: 36px
             margin-bottom: 0
+        &>span
+            margin-top: 24px
+            font-size: 18px
+            line-height: 28px
+            display: block
         &>div
             margin-top: 35px
             &>div
